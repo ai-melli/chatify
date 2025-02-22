@@ -1,4 +1,3 @@
-/* Prevents unwanted scrolling */
 html, body {
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ html, body {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  position: fixed; /* Keeps everything fixed in place */
+  position: fixed; 
   top: 0;
   left: 0;
 }

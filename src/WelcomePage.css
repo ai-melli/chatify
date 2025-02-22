@@ -1,13 +1,13 @@
 /* WelcomePage.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Nunito&display=swap');
 
-/* Prevent unwanted scrolling */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Ensures no scrolling */
+  overflow: hidden; 
+  
 }
 
 .welcome-container {
@@ -16,12 +16,12 @@ html, body {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh; /* Fixed to viewport height */
+  height: 100vh; 
   background: linear-gradient(to bottom right, #6e8efb, #b8cae8);
   text-align: center;
   padding: 2rem;
   box-sizing: border-box;
-  position: fixed; /* Keeps everything fixed in place */
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -60,7 +60,6 @@ html, body {
   transform: translateY(-3px);
 }
 
-/* Keyframes for subtle entrance animations */
 @keyframes fadeInDown {
   0% {
     opacity: 0;
